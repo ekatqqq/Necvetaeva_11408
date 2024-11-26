@@ -9,7 +9,7 @@
             double v = Convert.ToDouble(Console.ReadLine());
             double x = Convert.ToDouble(Console.ReadLine());
             double minT = (h - x * t) / (v - x);
-            double maxT = t;
+            double maxT = h / x - t;
             Console.WriteLine($"{minT} {maxT}");
         }
     }
